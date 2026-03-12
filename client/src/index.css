@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    /* Kita ganti light menjadi lofi agar terlihat mahal dan minimalis seperti Shadcn */
+    themes: lofi --default, black --prefersdark;
+}
